@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+
+
+body{
+    height: 300vh;
+    font-family: 'noto-sans',sans-serif;
+}
+
+
+
+.hd{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.hd:hover{
+    background-color: white;
+    transition:0.3s;
+}
+.hd:hover .topnavbar a{
+    color: black;
+}
+.hd:hover .logo{
+    color: black;
+}
+
+.topcontainer{
+    width: 1280px;
+    height: 83px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.logo{
+    color: white;
+}
+
+.menuWrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.menuWrap .topnavbar ul{
+    display: flex;
+}
+
+.menuWrap .topnavbar li{
+    width: 170px;
+    height: 76px;
+}
+
+.menuWrap .topnavbar a{
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.menuWrap .topnavbar a:hover{
+    color: black;
+}
+.bx-wrapper{
+    -mox-box-shadow: none;
+    -webkit-box-shadow : none;
+    box-shadow: none;
+    border : 0 none;
+    background: #fff;
+    
+}
+
+.visual .item{
+    height: 708px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: px;
+}
+
+.visual .item.st1{
+    background-image: url(../assets/banner01.jpg);
+}
+
+.visual .item.st2{
+    background-image: url(../assets/banner02.jpg);
+}
+
+.visual .item.st3{
+    background-image: url(../assets/banner03.jpg);
+}
+
+.visual .item .slidetextWrap{
+    width: 1280px;
+    height: 210px;
+    justify-content: flex-start;
+}
+
+.visual .item .textWrap{
+    width: 456px;
+    height: 210px;
+    color: white;
+}
+
+.visual .item .textWrap .slideTitle{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.visual .item .textWrap .slidetext{
+    margin-top: 14px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.secondtabTitle{
+    display: flex;
+    width: 1280px;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.secondtabTitle .titleText{
+    font-size: 44px;
+}
