@@ -4,7 +4,7 @@
 
 body{
     height: 300vh;
-    font-family: 'noto-sans',sans-serif;
+    font-family: 'Noto-Sans',sans-serif;
 }
 
 
@@ -103,20 +103,22 @@ body{
 }
 
 .visual .item .textWrap{
-    width: 456px;
+    width: 480px;
     height: 210px;
     color: white;
 }
 
 .visual .item .textWrap .slideTitle{
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 700;
+    letter-spacing: -4.5px;
 }
 
 .visual .item .textWrap .slidetext{
     margin-top: 14px;
     font-size: 24px;
     font-weight: 500;
+    letter-spacing: -2.6px;
 }
 
 .secondtabTitle{
