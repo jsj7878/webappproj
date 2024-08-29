@@ -1,13 +1,9 @@
 @charset "utf-8";
 
-
-
 body{
     height: 300vh;
     font-family: 'Noto-Sans',sans-serif;
 }
-
-
 
 .hd{
     position: fixed;
@@ -60,28 +56,33 @@ body{
     align-items: center;
     color: white;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .menuWrap .topnavbar a:hover{
     color: black;
 }
+
+.visual {
+    width: 100%;
+}
+
 .bx-wrapper{
     -mox-box-shadow: none;
     -webkit-box-shadow : none;
     box-shadow: none;
     border : 0 none;
     background: #fff;
-    
 }
 
 .visual .item{
+    width: 100%;
     height: 708px;
     display: flex;
     justify-content:center;
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: px;
 }
 
 .visual .item.st1{
@@ -94,6 +95,14 @@ body{
 
 .visual .item.st3{
     background-image: url(../assets/banner03.jpg);
+}
+
+.visual .item.st4{
+    background-image: url(../assets/banner04.jpg);
+}
+
+.visual .item.st5{
+    background-image: url(../assets/banner05.jpg);
 }
 
 .visual .item .slidetextWrap{
@@ -111,7 +120,8 @@ body{
 .visual .item .textWrap .slideTitle{
     font-size: 80px;
     font-weight: 700;
-    letter-spacing: -4.5px;
+    letter-spacing: -6px;
+    
 }
 
 .visual .item .textWrap .slidetext{
